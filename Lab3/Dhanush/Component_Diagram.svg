@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1200" viewBox="0 0 1600 1200"><rect width="1600" height="1200" fill="white"/>
+<text x="60" y="48" font-family="DejaVu Sans, sans-serif" font-size="30" font-weight="700" fill="#000000" text-anchor="start">Remote Patient Vitals Alert and Monitoring App</text>
+<text x="60" y="81" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#333333" text-anchor="start">Lab 3  |  UML Component Diagram  |  Microservices Architecture  |  Problem Statement 16</text>
+<text x="60" y="113" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="400" fill="#333333" text-anchor="start">Dhanush S S  |  PES1UG24AM082  |  Section B  |  PES University</text>
+<rect x="80" y="240" width="300" height="120" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<text x="98" y="265" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#333333" text-anchor="start">«component»</text>
+<text x="98" y="295" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="700" fill="#000000" text-anchor="start">Patient and Caregiver</text>
+<text x="98" y="319" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="700" fill="#000000" text-anchor="start">App</text>
+<text x="98" y="344" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#333333" text-anchor="start">Device gateway • caregiver dashboard</text>
+<rect x="343" y="256" width="22" height="25" fill="#FFFFFF" stroke="#000000" stroke-width="1.4"/>
+<rect x="338" y="260" width="10" height="6" fill="#FFFFFF" stroke="#000000" stroke-width="1.2"/>
+<rect x="338" y="271" width="10" height="6" fill="#FFFFFF" stroke="#000000" stroke-width="1.2"/>
+<rect x="570" y="240" width="300" height="120" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<text x="588" y="265" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#333333" text-anchor="start">«component»</text>
+<text x="588" y="295" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="700" fill="#000000" text-anchor="start">Telemetry Ingestion</text>
+<text x="588" y="319" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="700" fill="#000000" text-anchor="start">Service</text>
+<text x="588" y="344" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#333333" text-anchor="start">Validate • deduplicate • track links</text>
+<rect x="833" y="256" width="22" height="25" fill="#FFFFFF" stroke="#000000" stroke-width="1.4"/>
+<rect x="828" y="260" width="10" height="6" fill="#FFFFFF" stroke="#000000" stroke-width="1.2"/>
+<rect x="828" y="271" width="10" height="6" fill="#FFFFFF" stroke="#000000" stroke-width="1.2"/>
+<rect x="1060" y="240" width="300" height="120" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<text x="1078" y="265" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#333333" text-anchor="start">«component»</text>
+<text x="1078" y="295" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="700" fill="#000000" text-anchor="start">Vitals Analysis Service</text>
+<text x="1078" y="344" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#333333" text-anchor="start">Evaluate thresholds and persist vitals</text>
+<rect x="1323" y="256" width="22" height="25" fill="#FFFFFF" stroke="#000000" stroke-width="1.4"/>
+<rect x="1318" y="260" width="10" height="6" fill="#FFFFFF" stroke="#000000" stroke-width="1.2"/>
+<rect x="1318" y="271" width="10" height="6" fill="#FFFFFF" stroke="#000000" stroke-width="1.2"/>
+<rect x="80" y="620" width="300" height="120" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<text x="98" y="645" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#333333" text-anchor="start">«component»</text>
+<text x="98" y="675" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="700" fill="#000000" text-anchor="start">Authentication Service</text>
+<text x="98" y="724" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#333333" text-anchor="start">Authenticate users and devices</text>
+<rect x="343" y="636" width="22" height="25" fill="#FFFFFF" stroke="#000000" stroke-width="1.4"/>
+<rect x="338" y="640" width="10" height="6" fill="#FFFFFF" stroke="#000000" stroke-width="1.2"/>
+<rect x="338" y="651" width="10" height="6" fill="#FFFFFF" stroke="#000000" stroke-width="1.2"/>
+<rect x="570" y="620" width="300" height="120" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<text x="588" y="645" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#333333" text-anchor="start">«component»</text>
+<text x="588" y="675" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="700" fill="#000000" text-anchor="start">Patient Data Service</text>
+<text x="588" y="724" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#333333" text-anchor="start">Vitals • status • config • audit</text>
+<rect x="833" y="636" width="22" height="25" fill="#FFFFFF" stroke="#000000" stroke-width="1.4"/>
+<rect x="828" y="640" width="10" height="6" fill="#FFFFFF" stroke="#000000" stroke-width="1.2"/>
+<rect x="828" y="651" width="10" height="6" fill="#FFFFFF" stroke="#000000" stroke-width="1.2"/>
+<rect x="1060" y="620" width="300" height="120" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<text x="1078" y="645" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#333333" text-anchor="start">«component»</text>
+<text x="1078" y="675" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="700" fill="#000000" text-anchor="start">Alert and Escalation</text>
+<text x="1078" y="699" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="700" fill="#000000" text-anchor="start">Service</text>
+<text x="1078" y="724" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#333333" text-anchor="start">Select caregiver • track escalation</text>
+<rect x="1323" y="636" width="22" height="25" fill="#FFFFFF" stroke="#000000" stroke-width="1.4"/>
+<rect x="1318" y="640" width="10" height="6" fill="#FFFFFF" stroke="#000000" stroke-width="1.2"/>
+<rect x="1318" y="651" width="10" height="6" fill="#FFFFFF" stroke="#000000" stroke-width="1.2"/>
+<rect x="1060" y="950" width="300" height="120" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<text x="1078" y="975" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#333333" text-anchor="start">«component»</text>
+<text x="1078" y="1005" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="700" fill="#000000" text-anchor="start">Notification Service</text>
+<text x="1078" y="1054" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#333333" text-anchor="start">Dispatch push or SMS notifications</text>
+<rect x="1323" y="966" width="22" height="25" fill="#FFFFFF" stroke="#000000" stroke-width="1.4"/>
+<rect x="1318" y="970" width="10" height="6" fill="#FFFFFF" stroke="#000000" stroke-width="1.2"/>
+<rect x="1318" y="981" width="10" height="6" fill="#FFFFFF" stroke="#000000" stroke-width="1.2"/>
+<polyline points="380,290 570,290" fill="none" stroke="#000000" stroke-width="2.3"/>
+<g transform="translate(475 290) rotate(0)"><rect x="-20" y="-20" width="40" height="40" fill="white"/><path d="M -20 0 L -13 0 M 0 -13 A 13 13 0 0 0 0 13 M 8 0 L 20 0" stroke="#000000" stroke-width="2.3" fill="none"/><circle cx="0" cy="0" r="8" fill="white" stroke="#000000" stroke-width="2.3"/></g>
+<rect x="376" y="286" width="8" height="8" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+<rect x="566" y="286" width="8" height="8" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+<text x="475" y="208" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="700" fill="#000000" text-anchor="middle">ITelemetrySubmission</text>
+<text x="475" y="230" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#333333" text-anchor="middle">HTTPS · vital readings</text>
+<polyline points="870,290 1060,290" fill="none" stroke="#000000" stroke-width="2.3"/>
+<g transform="translate(965 290) rotate(0)"><rect x="-20" y="-20" width="40" height="40" fill="white"/><path d="M -20 0 L -13 0 M 0 -13 A 13 13 0 0 0 0 13 M 8 0 L 20 0" stroke="#000000" stroke-width="2.3" fill="none"/><circle cx="0" cy="0" r="8" fill="white" stroke="#000000" stroke-width="2.3"/></g>
+<rect x="866" y="286" width="8" height="8" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+<rect x="1056" y="286" width="8" height="8" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+<text x="965" y="208" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="700" fill="#000000" text-anchor="middle">IVitalsEvaluation</text>
+<text x="965" y="230" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#333333" text-anchor="middle">HTTPS API · validated vitals</text>
+<polyline points="1210,360 1210,620" fill="none" stroke="#000000" stroke-width="2.3"/>
+<g transform="translate(1210 525) rotate(90)"><rect x="-20" y="-20" width="40" height="40" fill="white"/><path d="M -20 0 L -13 0 M 0 -13 A 13 13 0 0 0 0 13 M 8 0 L 20 0" stroke="#000000" stroke-width="2.3" fill="none"/><circle cx="0" cy="0" r="8" fill="white" stroke="#000000" stroke-width="2.3"/></g>
+<rect x="1206" y="356" width="8" height="8" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+<rect x="1206" y="616" width="8" height="8" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+<text x="1240" y="516" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="700" fill="#000000" text-anchor="start">IAlertCreation</text>
+<text x="1240" y="538" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#333333" text-anchor="start">HTTPS API · critical anomaly</text>
+<polyline points="1210,740 1210,950" fill="none" stroke="#000000" stroke-width="2.3"/>
+<g transform="translate(1210 850) rotate(90)"><rect x="-20" y="-20" width="40" height="40" fill="white"/><path d="M -20 0 L -13 0 M 0 -13 A 13 13 0 0 0 0 13 M 8 0 L 20 0" stroke="#000000" stroke-width="2.3" fill="none"/><circle cx="0" cy="0" r="8" fill="white" stroke="#000000" stroke-width="2.3"/></g>
+<rect x="1206" y="736" width="8" height="8" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+<rect x="1206" y="946" width="8" height="8" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+<text x="1240" y="842" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="700" fill="#000000" text-anchor="start">INotificationDelivery</text>
+<text x="1240" y="864" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#333333" text-anchor="start">HTTPS API · alert and recipient</text>
+<polyline points="230,360 230,620" fill="none" stroke="#000000" stroke-width="2.3"/>
+<g transform="translate(230 460) rotate(90)"><rect x="-20" y="-20" width="40" height="40" fill="white"/><path d="M -20 0 L -13 0 M 0 -13 A 13 13 0 0 0 0 13 M 8 0 L 20 0" stroke="#000000" stroke-width="2.3" fill="none"/><circle cx="0" cy="0" r="8" fill="white" stroke="#000000" stroke-width="2.3"/></g>
+<rect x="226" y="356" width="8" height="8" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+<rect x="226" y="616" width="8" height="8" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+<text x="60" y="548" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="700" fill="#000000" text-anchor="start">IAuthentication</text>
+<text x="60" y="570" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#333333" text-anchor="start">HTTPS · login and tokens</text>
+<polyline points="1100,360 1100,445 720,445 720,620" fill="none" stroke="#000000" stroke-width="2.3"/>
+<g transform="translate(720 550) rotate(90)"><rect x="-20" y="-20" width="40" height="40" fill="white"/><path d="M -20 0 L -13 0 M 0 -13 A 13 13 0 0 0 0 13 M 8 0 L 20 0" stroke="#000000" stroke-width="2.3" fill="none"/><circle cx="0" cy="0" r="8" fill="white" stroke="#000000" stroke-width="2.3"/></g>
+<rect x="1096" y="356" width="8" height="8" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+<rect x="716" y="616" width="8" height="8" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+<text x="750" y="542" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="700" fill="#000000" text-anchor="start">IPatientMonitoringData</text>
+<text x="750" y="564" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#333333" text-anchor="start">HTTPS API · thresholds and vitals</text>
+<polyline points="1060,685 870,685" fill="none" stroke="#000000" stroke-width="2.3"/>
+<g transform="translate(965 685) rotate(180)"><rect x="-20" y="-20" width="40" height="40" fill="white"/><path d="M -20 0 L -13 0 M 0 -13 A 13 13 0 0 0 0 13 M 8 0 L 20 0" stroke="#000000" stroke-width="2.3" fill="none"/><circle cx="0" cy="0" r="8" fill="white" stroke="#000000" stroke-width="2.3"/></g>
+<rect x="1056" y="681" width="8" height="8" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+<rect x="866" y="681" width="8" height="8" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+<text x="945" y="780" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="700" fill="#000000" text-anchor="middle">ICaregiverAndAlertRecords</text>
+<text x="945" y="802" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#333333" text-anchor="middle">HTTPS API · assignments and status</text>
+<polyline points="320,360 320,505 610,505 610,620" fill="none" stroke="#000000" stroke-width="2.3"/>
+<g transform="translate(455 505) rotate(0)"><rect x="-20" y="-20" width="40" height="40" fill="white"/><path d="M -20 0 L -13 0 M 0 -13 A 13 13 0 0 0 0 13 M 8 0 L 20 0" stroke="#000000" stroke-width="2.3" fill="none"/><circle cx="0" cy="0" r="8" fill="white" stroke="#000000" stroke-width="2.3"/></g>
+<rect x="316" y="356" width="8" height="8" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+<rect x="606" y="616" width="8" height="8" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+<text x="455" y="464" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="700" fill="#000000" text-anchor="middle">IVitalsHistory</text>
+<text x="455" y="486" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#333333" text-anchor="middle">HTTPS · vitals, history, config</text>
+<polyline points="230,240 230,185 1500,185 1500,685 1360,685" fill="none" stroke="#000000" stroke-width="2.3"/>
+<g transform="translate(1430 685) rotate(180)"><rect x="-20" y="-20" width="40" height="40" fill="white"/><path d="M -20 0 L -13 0 M 0 -13 A 13 13 0 0 0 0 13 M 8 0 L 20 0" stroke="#000000" stroke-width="2.3" fill="none"/><circle cx="0" cy="0" r="8" fill="white" stroke="#000000" stroke-width="2.3"/></g>
+<rect x="226" y="236" width="8" height="8" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+<rect x="1356" y="681" width="8" height="8" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+<text x="1000" y="139" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="700" fill="#000000" text-anchor="middle">IAlertAccess</text>
+<text x="1000" y="161" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#333333" text-anchor="middle">HTTPS · fetch alerts and acknowledge</text>
+<polyline points="820,360 820,420 1030,420 1030,585 820,585 820,620" fill="none" stroke="#000000" stroke-width="2.3"/>
+<g transform="translate(820 400) rotate(90)"><rect x="-20" y="-20" width="40" height="40" fill="white"/><path d="M -20 0 L -13 0 M 0 -13 A 13 13 0 0 0 0 13 M 8 0 L 20 0" stroke="#000000" stroke-width="2.3" fill="none"/><circle cx="0" cy="0" r="8" fill="white" stroke="#000000" stroke-width="2.3"/></g>
+<rect x="816" y="356" width="8" height="8" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+<rect x="816" y="616" width="8" height="8" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+<text x="850" y="380" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="700" fill="#000000" text-anchor="start">IConnectionState</text>
+<text x="850" y="402" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#333333" text-anchor="start">HTTPS API · state and audit</text>
+<text x="60" y="843" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="700" fill="#000000" text-anchor="start">Interface notation</text>
+<polyline points="70,889 180,889" fill="none" stroke="#000000" stroke-width="2.3"/>
+<g transform="translate(125 889) rotate(0)"><rect x="-20" y="-20" width="40" height="40" fill="white"/><path d="M -20 0 L -13 0 M 0 -13 A 13 13 0 0 0 0 13 M 8 0 L 20 0" stroke="#000000" stroke-width="2.3" fill="none"/><circle cx="0" cy="0" r="8" fill="white" stroke="#000000" stroke-width="2.3"/></g>
+<text x="200" y="883" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#000000" text-anchor="start">Socket = required service    Circle = provided service</text>
+<text x="200" y="909" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#333333" text-anchor="start">Solid assembly connector joins matching interfaces; squares are ports.</text>
+<text x="60" y="964" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="700" fill="#000000" text-anchor="start">Interaction and security notes</text>
+<text x="60" y="994" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="400" fill="#333333" text-anchor="start">Paired devices send timestamped readings; ingestion rejects invalid data and duplicates.</text>
+<text x="60" y="1021" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="400" fill="#333333" text-anchor="start">Alert service persists pending alerts; delivery retries run independently of ingestion.</text>
+<text x="60" y="1048" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="400" fill="#333333" text-anchor="start">Acknowledgement stops escalation; history and threshold edits use the Data API.</text>
+<text x="60" y="1075" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="400" fill="#333333" text-anchor="start">Services verify signed tokens and patient access; internal calls use service credentials.</text>
+<text x="60" y="1102" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="400" fill="#333333" text-anchor="start">Ingestion tracks inactivity and recovery; Data API supplies stale status and audit events.</text>
+<text x="60" y="1148" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="700" fill="#000000" text-anchor="start">Targets: detection within 2 seconds • 500 streams • 99.99% monthly gateway availability</text>
+<text x="60" y="1175" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="700" fill="#000000" text-anchor="start">Security: TLS 1.2+ • AES-256 at rest • assigned-patient access control • auditable changes</text>
+</svg>
