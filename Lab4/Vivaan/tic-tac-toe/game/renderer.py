@@ -15,6 +15,7 @@ COLOR_LINE = (60, 60, 60)
 COLOR_X = (200, 60, 60)
 COLOR_O = (60, 100, 200)
 COLOR_TEXT = (30, 30, 30)
+COLOR_HINT = (110, 110, 110)
 
 
 def board_pos_to_cell(pos):
@@ -53,5 +54,11 @@ def draw_text(surface, font, text, pos, color=COLOR_TEXT):
 
 def draw_banner(surface, font, text):
     surf = font.render(text, True, (180, 40, 40))
-    rect = surf.get_rect(center=(surface.get_width() // 2, BOARD_TOP + BOARD_SIZE + 40))
+    rect = surf.get_rect(center=(surface.get_width() // 2, BOARD_TOP + BOARD_SIZE + 30))
+    surface.blit(surf, rect)
+
+
+def draw_hint(surface, font, text):
+    surf = font.render(text, True, COLOR_HINT)
+    rect = surf.get_rect(center=(surface.get_width() // 2, BOARD_TOP + BOARD_SIZE + 75))
     surface.blit(surf, rect)
